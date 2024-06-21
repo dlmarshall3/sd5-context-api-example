@@ -7,7 +7,7 @@ export default function Dashboard() {
 
   return (
     <>
-      <h1>Dashboard</h1>
+      <h1>Dashboard Confessional</h1>
       <input type="text" onChange={() => setUser(event.target.value)} />
       <Link to="/profile">
         <button>Navigate</button>
